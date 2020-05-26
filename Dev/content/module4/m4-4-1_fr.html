@@ -1,0 +1,105 @@
+<!-- InstanceBegin template="/Templates/gab-10.dwt" codeOutsideHTMLIsLocked="false" --><meta charset="UTF-8">
+<!-- InstanceParam name="rep-1" type="text" value="Si j’avais " -->
+<!-- InstanceParam name="rep-2" type="text" value="le temps de le faire, " -->
+<!-- InstanceParam name="rep-3" type="text" value="j’accepterais " -->
+<!-- InstanceParam name="rep-4" type="text" value="d’être mentor " -->
+<!-- InstanceParam name="rep-5" type="text" value="afin de permettre " -->
+<!-- InstanceParam name="rep-6" type="text" value="à un fonctionnaire plus jeune " -->
+<!-- InstanceParam name="rep-7" type="text" value="d’en apprendre un peu plus " -->
+<!-- InstanceParam name="rep-8" type="text" value="sur le travail de gestionnaire." -->
+
+
+<h1><!-- InstanceBeginEditable name="title" -->Activité 1.1<!-- InstanceEndEditable --></h1>
+
+<section role="content" class="col-sm-12">
+	<div class="instructions">
+        <span><!-- InstanceBeginEditable name="instructions" -->Reconstituez la phrase en choisissant les segments dans le bon ordre.<!-- InstanceEndEditable --></span>
+	</div>
+</section>
+<!-- InstanceBeginEditable name="question" --><p class="indice col-sm-12">Si on vous demandait d’être mentor, accepteriez-vous?</p><!-- InstanceEndEditable -->
+<div class="row gab gabarit-ee-10 zone-mots">
+	<span class="wb-inv">Les mots choisis parmis les suivants iront constituer la phrase dans la boîte de texte située après.</span>
+    <div class="col-xs-12 col-md-3 box"><a href="javascript:;" class="clickable" onclick="return false">Si j’avais </a></div>
+	<div class="col-xs-12 col-md-3 box"><a href="javascript:;" class="clickable" onclick="return false">le temps de le faire, </a></div>
+	<div class="col-xs-12 col-md-3 box"><a href="javascript:;" class="clickable" onclick="return false">j’accepterais </a></div>
+	<div class="col-xs-12 col-md-3 box"><a href="javascript:;" class="clickable" onclick="return false">d’être mentor </a></div>
+	<div class="col-xs-12 col-md-3 box"><a href="javascript:;" class="clickable" onclick="return false">afin de permettre </a></div>
+	<div class="col-xs-12 col-md-3 box"><a href="javascript:;" class="clickable" onclick="return false">à un fonctionnaire plus jeune </a></div>
+	<div class="col-xs-12 col-md-3 box"><a href="javascript:;" class="clickable" onclick="return false">d’en apprendre un peu plus </a></div>
+	<div class="col-xs-12 col-md-3 box"><a href="javascript:;" class="clickable" onclick="return false">sur le travail de gestionnaire.</a></div>
+</div>
+
+
+
+
+<div class="row gab gabarit-ee-10">
+
+    <section class="col-md-12">
+    <!-- THIS IS AN ACTIVITY -->
+    	<div class="qs-elearning-activity" id="activity-1" data-activity-type="simple" data-tracking="false" >
+            <!-- END TESTING PERMANENTS -->
+            <div class="clearfix"></div>
+            <!-- THIS IS AN EXERCISE -->
+            <div class="qs-exercise" id="exercise-1" data-question-type="type-3"  data-feedback-type="instant" >
+            <form>
+                <!-- THIS IS A QUESTION -->
+                <div class="qs-question" id="q1">
+                <fieldset>
+                    <!-- QUESTION MAIN TEXT -->
+                    <div class="qs-text row">					
+                        <legend class=" col-xs-12">Phrase :</legend>
+                    </div>
+                    <!-- QUESTION ANSWERS -->
+                    <div class="qs-answers row">
+                        <div class="type-here col-xs-11">&nbsp;</div>
+                        <input data-rep="Si j’avais le temps de le faire, j’accepterais d’être mentor afin de permettre à un fonctionnaire plus jeune d’en apprendre un peu plus sur le travail de gestionnaire." id="q1-a" type="text" class="wb-inv"  disabled>
+                        <span class="qs-vsfbh col-xs-1">X</span>
+                    </div>
+                    <!-- QUESTION FEEDBACK (default hidden) (OPTIONAL) -->
+                    <div class="qs-feedback row" style="display:none;">
+    
+                        <div class="qs-generic">
+                        	<p class="rep">Réponse :</p>
+	                        <p class="sugg">Si j’avais le temps de le faire, j’accepterais d’être mentor afin de permettre à un fonctionnaire plus jeune d’en apprendre un peu plus sur le travail de gestionnaire.</p>
+                        </div>
+    
+                    </div>
+                    <div class="boutons-feedback row"><span class="wb-inv">Appuyez sur 'Valider', puis retournez voir pour la rétroaction.</span><input class="qs-submit btn btn-default" type="button" value="Valider"><input class="recomm btn btn-default" type="button" value="Recommencer"></div>                                    
+                    
+                </fieldset>
+                </div>
+      
+                                
+            </form>
+            </div>
+        </div>
+       
+        <!-- END TESTING PERMS -->
+        
+        <script type="text/javascript">	 
+    
+        $(document).ready(function(e) {
+             
+            $('#activity-1').show();               
+        });	
+		
+		$(document).ready(function(e) {
+			$(".clickable").each(function( index ) {
+				$(this).click(function(e){
+					var thisText=$(this).html()
+					var phrase=$("input").eq(0).val();
+					if (!$(this).hasClass("disabled")){
+						$(".type-here").eq(0).html(phrase+thisText)
+						$("input").eq(0).val(phrase+thisText)
+					}
+					$(this).addClass('disabled')
+					$(this).attr("tabindex", "-1");
+					$(this).html(thisText+"<span class='wb-inv'>This option is no longer available</span>")
+				})
+			})
+			$('.zone-mots div').shuffle();
+        });	
+            
+        </script>
+    </section>
+</div><!-- InstanceEnd -->

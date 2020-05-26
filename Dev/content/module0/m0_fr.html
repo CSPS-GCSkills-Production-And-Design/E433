@@ -1,0 +1,43 @@
+<div id="titlepage" class="row">
+
+	<section class="col-md-4 col-md-push-8 main-title">
+    	<h1 class="wb-inv">Série Pouvoir</h1>
+        <p><strong>Série pouvoir</strong> a pour but d’aider à maintenir les acquis linguistiques de niveau C. Il comprend six modules qui favorisent la maîtrise d’éléments linguistiques permettant de lier les idées entre elles pour formuler des causes et des conséquences, comparer, demander et donner des conseils, émettre des hypothèses, donner son opinion et résumer.</p>
+		<p>Cette série propose de la théorie et des activités de compréhension de l’oral, de compréhension de l’écrit et d’expression écrite.</p>
+        
+	</section>
+
+	<section class="col-md-8 col-md-pull-4 tbl-ppl col-md-visible col-xs-hidden">
+
+    	<div class="bubble b2">
+        	<a href="#" class="bbl-content" onclick="fNav('m1-1-1')">Pouvoir comparer</a>
+        </div>
+    	<div class="bubble b3">
+        	<a href="#" class="bbl-content" onclick="fNav('m2-1-1')">Pouvoir conseiller</a>
+        </div>      
+    	<div class="bubble b6">
+        	<a href="#" class="bbl-content" onclick="fNav('m3-1-1')">Pouvoir donner<br>son opinion</a>
+        </div>    
+    	<div class="bubble b5">
+        	<a href="#" class="bbl-content" onclick="fNav('m4-1-1')">Pouvoir émettre une hypothèse</a>
+        </div>
+    	<div class="bubble b4">
+        	<a href="#" class="bbl-content" onclick="fNav('m5-1-1')">Pouvoir établir<br>la cause et la<br>conséquence</a>
+        </div>      
+    	<div class="bubble b1">
+        	<a href="#" class="bbl-content" onclick="fNav('m6-1-1')">Pouvoir résumer</a>
+        </div>                
+    </section>
+</div>
+        <script type="text/javascript">
+		//how to set a module as viewed?
+		//masterStructure.levels[0].subs[3].setViewedSubs()
+		$(document).ready(function() {
+			$(".bubble").each(function( index, element ) {
+				if ($("#wb-sm").find("ul").eq(0).find("ul").eq(0).children("li").eq(index+1).children("a").eq(0).hasClass("viewed") && trackViewedSubs){
+					$(element).addClass("viewed");
+					$(element).append("<span class='wb-inv'>(visité)</span>");
+				}
+			});
+		});
+		</script>	

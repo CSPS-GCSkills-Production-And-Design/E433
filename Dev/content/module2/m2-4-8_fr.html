@@ -1,0 +1,105 @@
+<!-- InstanceBegin template="/Templates/gab-10.dwt" codeOutsideHTMLIsLocked="false" --><meta charset="UTF-8">
+<!-- InstanceParam name="rep-1" type="text" value="Pourquoi " -->
+<!-- InstanceParam name="rep-2" type="text" value="est-ce que " -->
+<!-- InstanceParam name="rep-3" type="text" value="tu n’organises pas " -->
+<!-- InstanceParam name="rep-4" type="text" value="une activité sociale " -->
+<!-- InstanceParam name="rep-5" type="text" value="pour faire en sorte que " -->
+<!-- InstanceParam name="rep-6" type="text" value="les employés " -->
+<!-- InstanceParam name="rep-7" type="text" value="apprennent à " -->
+<!-- InstanceParam name="rep-8" type="text" value="se connaître davantage?" -->
+
+
+<h1><!-- InstanceBeginEditable name="title" -->Activité 1.8<!-- InstanceEndEditable --></h1>
+
+<section role="content" class="col-sm-12">
+	<div class="instructions">
+        <span><!-- InstanceBeginEditable name="instructions" -->Reconstituez la phrase en choisissant les segments dans le bon ordre.<!-- InstanceEndEditable --></span>
+	</div>
+</section>
+<!-- InstanceBeginEditable name="question" --><p class="indice col-sm-12">Qu’est-ce qu’il faudrait que je fasse pour améliorer le climat de travail?</p><!-- InstanceEndEditable -->
+<div class="row gab gabarit-ee-10 zone-mots">
+	<span class="wb-inv">Les mots choisis parmis les suivants iront constituer la phrase dans la boîte de texte située après.</span>
+    <div class="col-xs-12 col-md-3 box"><a href="javascript:;" class="clickable" onclick="return false">Pourquoi </a></div>
+	<div class="col-xs-12 col-md-3 box"><a href="javascript:;" class="clickable" onclick="return false">est-ce que </a></div>
+	<div class="col-xs-12 col-md-3 box"><a href="javascript:;" class="clickable" onclick="return false">tu n’organises pas </a></div>
+	<div class="col-xs-12 col-md-3 box"><a href="javascript:;" class="clickable" onclick="return false">une activité sociale </a></div>
+	<div class="col-xs-12 col-md-3 box"><a href="javascript:;" class="clickable" onclick="return false">pour faire en sorte que </a></div>
+	<div class="col-xs-12 col-md-3 box"><a href="javascript:;" class="clickable" onclick="return false">les employés </a></div>
+	<div class="col-xs-12 col-md-3 box"><a href="javascript:;" class="clickable" onclick="return false">apprennent à </a></div>
+	<div class="col-xs-12 col-md-3 box"><a href="javascript:;" class="clickable" onclick="return false">se connaître davantage?</a></div>
+</div>
+
+
+
+
+<div class="row gab gabarit-ee-10">
+
+    <section class="col-md-12">
+    <!-- THIS IS AN ACTIVITY -->
+    	<div class="qs-elearning-activity" id="activity-1" data-activity-type="simple" data-tracking="false" >
+            <!-- END TESTING PERMANENTS -->
+            <div class="clearfix"></div>
+            <!-- THIS IS AN EXERCISE -->
+            <div class="qs-exercise" id="exercise-1" data-question-type="type-3"  data-feedback-type="instant" >
+            <form>
+                <!-- THIS IS A QUESTION -->
+                <div class="qs-question" id="q1">
+                <fieldset>
+                    <!-- QUESTION MAIN TEXT -->
+                    <div class="qs-text row">					
+                        <legend class=" col-xs-12">Phrase :</legend>
+                    </div>
+                    <!-- QUESTION ANSWERS -->
+                    <div class="qs-answers row">
+                        <div class="type-here col-xs-11">&nbsp;</div>
+                        <input data-rep="Pourquoi est-ce que tu n’organises pas une activité sociale pour faire en sorte que les employés apprennent à se connaître davantage?" id="q1-a" type="text" class="wb-inv"  disabled>
+                        <span class="qs-vsfbh col-xs-1">X</span>
+                    </div>
+                    <!-- QUESTION FEEDBACK (default hidden) (OPTIONAL) -->
+                    <div class="qs-feedback row" style="display:none;">
+    
+                        <div class="qs-generic">
+                        	<p class="rep">Réponse :</p>
+	                        <p class="sugg">Pourquoi est-ce que tu n’organises pas une activité sociale pour faire en sorte que les employés apprennent à se connaître davantage?</p>
+                        </div>
+    
+                    </div>
+                    <div class="boutons-feedback row"><span class="wb-inv">Appuyez sur 'Valider', puis retournez voir pour la rétroaction.</span><input class="qs-submit btn btn-default" type="button" value="Valider"><input class="recomm btn btn-default" type="button" value="Recommencer"></div>                                    
+                    
+                </fieldset>
+                </div>
+      
+                                
+            </form>
+            </div>
+        </div>
+       
+        <!-- END TESTING PERMS -->
+        
+        <script type="text/javascript">	 
+    
+        $(document).ready(function(e) {
+             
+            $('#activity-1').show();               
+        });	
+		
+		$(document).ready(function(e) {
+			$(".clickable").each(function( index ) {
+				$(this).click(function(e){
+					var thisText=$(this).html()
+					var phrase=$("input").eq(0).val();
+					if (!$(this).hasClass("disabled")){
+						$(".type-here").eq(0).html(phrase+thisText)
+						$("input").eq(0).val(phrase+thisText)
+					}
+					$(this).addClass('disabled')
+					$(this).attr("tabindex", "-1");
+					$(this).html(thisText+"<span class='wb-inv'>This option is no longer available</span>")
+				})
+			})
+			$('.zone-mots div').shuffle();
+        });	
+            
+        </script>
+    </section>
+</div><!-- InstanceEnd -->
