@@ -477,6 +477,12 @@ legend {
                   Custom Styles
 				  
 -------------------------------------------------------*/
+.wb-mm-ctrls .wb-mm-txtonly {
+  display: none; }
+
+.qs-answers .wb-mm-ctrls .tline {
+  display: none; }
+
 /*pour la pagnination */
 /*.dataTables_wrapper .dataTables_paginate .paginate_button.current{ background-color:#335075;}*/
 /* pagination */
