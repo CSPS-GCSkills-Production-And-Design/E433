@@ -73,24 +73,24 @@ function exceptionThree(){
 		
 		//console.log("Interactions:pageLoaded");
 
-		var medias = [];
-		medias = Array.prototype.concat.apply(medias, document.getElementsByTagName('audio'));
-		medias = Array.prototype.concat.apply(medias, document.getElementsByTagName('video'));
+		// var medias = [];
+		// medias = Array.prototype.concat.apply(medias, document.getElementsByTagName('audio'));
+		// medias = Array.prototype.concat.apply(medias, document.getElementsByTagName('video'));
 		
-		$(medias).each(function(index){
-			var catched = false;
-			$(this).on('playing',function(e){							
-				if(!catched){		        
-					catched = true; 					
-					window.ga('send',{
-						hitType:'event',
-						eventCategory:this.nodeName,
-						eventAction:'play',
-						eventLabel:this.getAttribute('title')
-					})
-		     	}
-			});
-		});		
+		// $(medias).each(function(index){
+		// 	var catched = false;
+		// 	$(this).on('playing',function(e){							
+		// 		if(!catched){		        
+		// 			catched = true; 					
+		// 			window.ga('send',{
+		// 				hitType:'event',
+		// 				eventCategory:this.nodeName,
+		// 				eventAction:'play',
+		// 				eventLabel:this.getAttribute('title')
+		// 			})
+		//      	}
+		// 	});
+		// });		
 	}
 
 	initialize();
