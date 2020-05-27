@@ -9,5 +9,7 @@ define({
   "addToolboxPage": [],
   "editMode": true,
   "showLangSwitch":false,
-  "showHelp":false
+  "showHelp":false,
+  "showSitemap":false,
+  "showToolbox":false
 });
