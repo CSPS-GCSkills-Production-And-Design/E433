@@ -1394,6 +1394,10 @@ pre {
   padding-left: 15px;
   padding-right: 15px; }
 
+  .col-xs-2{
+  margin-right:80px;
+  margin-top:-35px; }
+
 .col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
   float: left; }
 
@@ -1401,7 +1405,7 @@ pre {
   width: 8.3333333333%; }
 
 .col-xs-2 {
-  width: 16.6666666667%; }
+  width:  8.3333333333%; }
 
 .col-xs-3 {
   width: 25%; }
@@ -1422,7 +1426,7 @@ pre {
   width: 66.6666666667%; }
 
 .col-xs-9 {
-  width: 75%; }
+  width: 66.6666666667%; }
 
 .col-xs-10 {
   width: 83.3333333333%; }
