@@ -7790,24 +7790,37 @@ body.wb-modal .modal-dialog summary {
     /* Important Thing */
     -webkit-appearance: none;
     background: #fff;
-    border: 7px solid #3e3e3e;
-    border-radius: 14px;
+    border: 2px solid #3e3e3e;
+    border-radius: 2px;
     color: #176ca7;
     display: block;
-    height: 30px;
+    height: 20px;
     left: 0;
     padding: 2px;
     position: absolute;
-    top: 0;
+    top: 5px;
     width: 100%; }
     .wb-mm-ctrls progress.wb-progress-inited {
       overflow: hidden;
       padding: 0; }
     .wb-mm-ctrls progress::-webkit-progress-bar {
       background: #fff; }
-    .wb-mm-ctrls progress::-webkit-progress-value {
-      background: #176ca7;
-      border-radius: 7px; }
+    .th .wb-mm-ctrls progress::-webkit-progress-value {
+     background: rgb(56,56,31);
+background: linear-gradient(90deg, rgba(56,56,31,1) 0%, rgba(128,128,71,1) 50%, rgba(241,241,134,1) 100%);
+ }
+    .ce .wb-mm-ctrls progress::-webkit-progress-value {
+     background: rgb(70,20,11);
+background: linear-gradient(90deg, rgba(70,20,11,1) 0%, rgba(140,67,53,1) 50%, rgba(207,142,130,1) 100%);
+ }
+    .co .wb-mm-ctrls progress::-webkit-progress-value {
+      background: rgb(32,51,55);
+background: linear-gradient(90deg, rgba(32,51,55,1) 0%, rgba(71,112,121,1) 50%, rgba(136,214,231,1) 100%);
+ }
+    .ee .wb-mm-ctrls progress::-webkit-progress-value {
+      background: rgb(29,24,31);
+background: linear-gradient(90deg, rgba(29,24,31,1) 0%, rgba(71,60,76,1) 50%, rgba(139,117,149,1) 100%);
+ }
     .wb-mm-ctrls progress::-moz-progress-bar {
       background: #176ca7;
       border-radius: 7px; }
@@ -9012,7 +9025,7 @@ details {
   details summary {
     border: 1px solid #ddd;
     border-radius: 4px;
-    color: #295376;
+    color: #010101;
     padding: 5px 15px; }
     details summary:focus, details summary:hover {
       background-color: transparent;
