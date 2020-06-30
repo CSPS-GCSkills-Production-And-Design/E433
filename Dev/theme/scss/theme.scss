@@ -1085,3 +1085,30 @@ figcaption.emboldened > details > p > span {
 -------------------------------------- */
 
 /*# sourceMappingURL=theme.css.map */
+$theory:#1E314F;
+$oral:#862222;
+
+html[data-nav*="-1-"]{ 
+
+#wb-bar > .container,
+footer > div.container {
+  background-color: $theory }
+}
+html[data-nav*="-2-"]{ 
+
+#wb-bar > .container,
+footer > div.container {
+  background-color: $oral }
+  .wb-mm-ctrls .btn {
+    background: $oral;
+    color: #fff;
+    
+    }
+}
+html[data-nav*="-3-"]{ 
+#wb-bar > .container,
+footer > div.container {
+  background-color: #1E314F; }}
+html[data-nav*="-4-"]{ #wb-bar > .container,
+footer > div.container {
+  background-color: #1E314F; }}

@@ -1125,5 +1125,23 @@ figcaption.emboldened > details > p > span {
                 END GABARITS
 -------------------------------------- */
 /*# sourceMappingURL=theme.css.map */
+html[data-nav*="-1-"] #wb-bar > .container,
+html[data-nav*="-1-"] footer > div.container {
+  background-color: #1E314F; }
+
+html[data-nav*="-2-"] #wb-bar > .container,
+html[data-nav*="-2-"] footer > div.container {
+  background-color: #862222; }
+html[data-nav*="-2-"] .wb-mm-ctrls .btn {
+  background: #862222;
+  color: #fff; }
+
+html[data-nav*="-3-"] #wb-bar > .container,
+html[data-nav*="-3-"] footer > div.container {
+  background-color: #1E314F; }
+
+html[data-nav*="-4-"] #wb-bar > .container,
+html[data-nav*="-4-"] footer > div.container {
+  background-color: #1E314F; }
 
 /*# sourceMappingURL=theme.css.map */
