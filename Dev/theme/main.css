@@ -716,7 +716,7 @@ main {
     #wb-bar a:visited {
       text-decoration: none; }
   #wb-bar .top-menu h2.series-title {
-    color: #666;
+    color: #fff;
     margin: 0;
     display: table-cell;
     vertical-align: middle; }
@@ -1127,7 +1127,7 @@ footer {
     padding-right: 0px;
     padding-left: 0;
     background-color: transparent;
-    color: #000;
+    color: #fff;
     height: 100%; }
   footer .backnext {
     float: right;
