@@ -49,7 +49,7 @@
 table caption,
 body.th .qs-submit,
 .tooltip-inner {
-  background-color: #0d645e; }
+  background-color: #808047; }
 
 body.th div.nvbar.container > div.row,
 body.th div.instructions,
@@ -61,6 +61,12 @@ body.th .qs-right {
 body.th .wb-mltmd .glyphicon,
 a:visited {
   color: #0d645e; }
+
+.th .wb-mltmd .glyphicon {
+  color: #808047;
+  /*border: 1px solid #ddd;
+  border-radius: 3px;
+  padding:5px;*/ }
 
 /* CO RED */
 #nav2 > li.co,
@@ -83,6 +89,8 @@ body.co .boutons-feedback > input:focus,
 body.co .boutons-feedback > input:hover {
   background-color: #751f2a !important; }
 
+.co .wb-mltmd .glyphicon {
+  color: #477079;}
 /* CE PURPLE */
 #nav2 > li.ce,
 body.ce .qs-submit,
@@ -94,8 +102,8 @@ body.ce div.instructions,
 body.ce .qs-right {
   border-color: #56425d !important; }
 
-.wb-mltmd .glyphicon {
-  color: #56425d; }
+.ce .wb-mltmd .glyphicon {
+  color: #8c4335;}
 
 /* CE PURPLE darker */
 body.ce .boutons-feedback > input:hover,
@@ -115,8 +123,8 @@ body.ee div.instructions,
 body.ee .qs-right {
   border-color: #9e5e06 !important; }
 
-body.ee .wb-mltmd .glyphicon {
-  color: #9e5e06; }
+.ee .wb-mltmd .glyphicon {
+  color: #473c4c;}
 
 /* CE YeLLOwW darker */
 body.ee .boutons-feedback > input:hover,
@@ -149,7 +157,7 @@ body.ee .boutons-feedback > input:hover {
 
 #wb-bar > .container,
 footer > div.container {
-  background-color: #5b5b5b; }
+  background-color: #1E314F; }
 
 select[disabled],
 select:disabled,
