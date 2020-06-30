@@ -1,7 +1,7 @@
 ﻿'use strict';
 define({
-  "courseTitle_en": "Power Series",
-  "courseTitle_fr": "Série Pouvoir",
+  "courseTitle_en": "",
+  "courseTitle_fr": "",
   "courseSubtitle_en": "",
   "courseSubtitle_fr": "",
   "seriesTitle_en": "Power Series",
