@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .alignLeft {
   text-align: left; }
 
@@ -1125,10 +1126,16 @@ figcaption.emboldened > details > p > span {
                 END GABARITS
 -------------------------------------- */
 /*# sourceMappingURL=theme.css.map */
+/* ---------------------------------
+                Théorie
+-------------------------------------- */
 html[data-nav*="-1-"] #wb-bar > .container,
 html[data-nav*="-1-"] footer > div.container {
   background-color: #1E314F; }
 
+/* ---------------------------------
+                Comprehension orale
+-------------------------------------- */
 html[data-nav*="-2-"] #wb-bar > .container,
 html[data-nav*="-2-"] footer > div.container {
   background-color: #862222; }
@@ -1136,10 +1143,16 @@ html[data-nav*="-2-"] .wb-mm-ctrls .btn {
   background: #862222;
   color: #fff; }
 
+/* ---------------------------------
+                Comprehension écrite
+-------------------------------------- */
 html[data-nav*="-3-"] #wb-bar > .container,
 html[data-nav*="-3-"] footer > div.container {
   background-color: #1E314F; }
 
+/* ---------------------------------
+                Expression écrite
+-------------------------------------- */
 html[data-nav*="-4-"] #wb-bar > .container,
 html[data-nav*="-4-"] footer > div.container {
   background-color: #1E314F; }
