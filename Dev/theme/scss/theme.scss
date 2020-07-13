@@ -51,7 +51,7 @@
 ----------------------------------------COLOR MANAGEMENT
 ---------------------------------------------------------------------------- */
 /* TH TEAL*/
-#nav2 > li.th,
+#nav2 > li.th:before,
 table caption,
 body.th .qs-submit,
 .tooltip-inner {
@@ -108,8 +108,6 @@ body.ce div.instructions,
 body.ce .qs-right {
   border-color: #56425d !important; }
 
-.ce .wb-mltmd .glyphicon {
-  color: #8c4335;}
 
 /* CE PURPLE darker */
 body.ce .boutons-feedback > input:hover,
@@ -1086,18 +1084,26 @@ figcaption.emboldened > details > p > span {
 
 /*# sourceMappingURL=theme.css.map */
 
-$theory:#1E314F;
-$oral:#862222;
+$theory:#808047;
+$oral:#8C4335;
+$comprehensionecrite:#477079;
+$expressionecrite:#473C4C;
 
 /* ---------------------------------
                 Théorie
 -------------------------------------- */
 
+#wb-bar > .container,
+footer > div.container {
+  transition: background-color 0.5s ease;
+}
+
 html[data-nav*="-1-"]{ 
 
 #wb-bar > .container,
 footer > div.container {
-  background-color: $theory }
+  background-color: $theory;
+}
 }
 
 /* ---------------------------------
@@ -1121,7 +1127,7 @@ footer > div.container {
 html[data-nav*="-3-"]{ 
 #wb-bar > .container,
 footer > div.container {
-  background-color: #1E314F; }}
+  background-color: $comprehensionecrite; }}
 
 /* ---------------------------------
                 Expression écrite
@@ -1129,4 +1135,13 @@ footer > div.container {
 
 html[data-nav*="-4-"]{ #wb-bar > .container,
 footer > div.container {
-  background-color: #1E314F; }}
+  background-color: $expressionecrite; }}
+
+#wb-tphp li > a {color:#fff;}
+
+.btn-group>input[type=range],
+.btn-group>.mute
+ {
+    display: none;
+}
+.wb-mm-ctrls input[type=range]:focus {}

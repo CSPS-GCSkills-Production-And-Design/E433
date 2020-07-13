@@ -92,7 +92,7 @@
 ----------------------------------------COLOR MANAGEMENT
 ---------------------------------------------------------------------------- */
 /* TH TEAL*/
-#nav2 > li.th,
+#nav2 > li.th:before,
 table caption,
 body.th .qs-submit,
 .tooltip-inner {
@@ -149,9 +149,6 @@ body.ce div.nvbar.container > div.row,
 body.ce div.instructions,
 body.ce .qs-right {
   border-color: #56425d !important; }
-
-.ce .wb-mltmd .glyphicon {
-  color: #8c4335; }
 
 /* CE PURPLE darker */
 body.ce .boutons-feedback > input:hover,
@@ -1129,18 +1126,22 @@ figcaption.emboldened > details > p > span {
 /* ---------------------------------
                 Théorie
 -------------------------------------- */
+#wb-bar > .container,
+footer > div.container {
+  transition: background-color 0.5s ease; }
+
 html[data-nav*="-1-"] #wb-bar > .container,
 html[data-nav*="-1-"] footer > div.container {
-  background-color: #1E314F; }
+  background-color: #808047; }
 
 /* ---------------------------------
                 Comprehension orale
 -------------------------------------- */
 html[data-nav*="-2-"] #wb-bar > .container,
 html[data-nav*="-2-"] footer > div.container {
-  background-color: #862222; }
+  background-color: #8C4335; }
 html[data-nav*="-2-"] .wb-mm-ctrls .btn {
-  background: #862222;
+  background: #8C4335;
   color: #fff; }
 
 /* ---------------------------------
@@ -1148,13 +1149,20 @@ html[data-nav*="-2-"] .wb-mm-ctrls .btn {
 -------------------------------------- */
 html[data-nav*="-3-"] #wb-bar > .container,
 html[data-nav*="-3-"] footer > div.container {
-  background-color: #1E314F; }
+  background-color: #477079; }
 
 /* ---------------------------------
                 Expression écrite
 -------------------------------------- */
 html[data-nav*="-4-"] #wb-bar > .container,
 html[data-nav*="-4-"] footer > div.container {
-  background-color: #1E314F; }
+  background-color: #473C4C; }
+
+#wb-tphp li > a {
+  color: #fff; }
+
+.btn-group > input[type=range],
+.btn-group > .mute {
+  display: none; }
 
 /*# sourceMappingURL=theme.css.map */
