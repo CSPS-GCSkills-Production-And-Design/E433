@@ -2,6 +2,15 @@
 @import "../scss/_vars";
 @import "../../common/scss/utils/_utils";
 
+$theory:#808047;
+$oral:#8C4335;
+$comprehensionecrite:#477079;
+$expressionecrite:#473C4C;
+
+#wb-bar .top-menu h2.series-title a,footer .container{
+  color:#fff;
+}
+
 .testBanane{display:flex;}
 
 .alignLeft {
@@ -47,29 +56,102 @@
 .w100 {
   width: 100%; }
 
+  /* ---------------------------------------------------------------------------------------------
+                                         content
+--------------------------------------------------------------------------------------------- */
+.breadcrumb{display:none!important;}
+.devient{
+  /*min-width:25px;*/
+  /*background:url('pouvoir/ico_devient.jpg') no-repeat center;*/
+  
+  }
+
+table, tr{
+  vertical-align:top;
+  /*border-spacing:0px!important;
+  border-collapse:collapse!importantl;
+  border:solid;*/}
+html[lang='fr'] span[lang='en'],
+html[lang='fr'] label[lang='en'] select
+{
+  font-style:italic;
+  }
+
+div.instructions, .qs-right{
+  border:2px solid;
+  padding:13px 10px;
+  margin-bottom:20px;
+  border-radius:10px 0 10px 0;
+  }
+div.instructions.audio{
+  padding:10px 10px 0px 10px;
+  } 
+div.instructions.audio>span{
+  width: 90%;
+  
+  margin: 5px;
+  margin-bottom:10px;
+  display:inline-block;
+  height:30px;
+  }
+
+div.row.gab{
+  margin-left:0px;
+  }
+
+  
+p.super-special-emphasis{
+  font-size:17px;
+  font-weight:600;
+  } 
+
+
+table{
+  width:100%;
+  border:1px solid;
+  margin-bottom:10px;
+  }
+  table span.title{
+    display:block;
+    margin-bottom:5px;}
+table caption{
+  font-size:13px;}
+table td{    
+    border-width: 2px;
+    border-style: solid;
+
+    padding: 4px;}
+
+dl.nobold>dt{
+  font-weight:500!important;
+  }
+p.reference{
+  font-size:0.9em;
+  }
+
 /* ----------------------------------------------------------------------------
 ----------------------------------------COLOR MANAGEMENT
 ---------------------------------------------------------------------------- */
 /* TH TEAL*/
-#nav2 > li.th:before,
+#nav2 > li.th,
 table caption,
 body.th .qs-submit,
 .tooltip-inner {
-  background-color: #808047; }
+  background-color: $theory; }
 
 body.th div.nvbar.container > div.row,
 body.th div.instructions,
 table,
 table td,
 body.th .qs-right {
-  border-color: #0d645e !important; }
+  border-color: $theory !important; }
 
 body.th .wb-mltmd .glyphicon,
 a:visited {
-  color: #0d645e; }
+  color: $theory; }
 
 .th .wb-mltmd .glyphicon {
-  color: #808047;
+  color: $theory;
   /*border: 1px solid #ddd;
   border-radius: 3px;
   padding:5px;*/ }
@@ -78,15 +160,15 @@ a:visited {
 #nav2 > li.co,
 body.co .qs-submit,
 body.co .recomm {
-  background-color: #a12b39; }
+  background-color: $oral; }
 
 body.co div.nvbar.container > div.row,
 body.co div.instructions,
 body.co .qs-right {
-  border-color: #a12b39 !important; }
+  border-color: $oral !important; }
 
 body.co .wb-mltmd .glyphicon {
-  color: #a12b39; }
+  color: $oral; }
 
 /* CO RED darker */
 body.co .boutons-feedback > input:hover,
@@ -101,12 +183,12 @@ body.co .boutons-feedback > input:hover {
 #nav2 > li.ce,
 body.ce .qs-submit,
 body.ce .recomm {
-  background-color: #56425d; }
+  background-color: $comprehensionecrite }
 
 body.ce div.nvbar.container > div.row,
 body.ce div.instructions,
 body.ce .qs-right {
-  border-color: #56425d !important; }
+  border-color: $comprehensionecrite !important; }
 
 
 /* CE PURPLE darker */
@@ -114,18 +196,18 @@ body.ce .boutons-feedback > input:hover,
 body.ce .boutons-feedback > input:focus,
 body.ce .boutons-feedback > input:focus,
 body.ce .boutons-feedback > input:hover {
-  background-color: #3e3043 !important; }
+  background-color: $comprehensionecrite !important; }
 
 /* eE yellow */
 #nav2 > li.ee,
 body.ee .qs-submit,
 body.ee .boutons-feedback > input {
-  background-color: #9e5e06; }
+  background-color: $expressionecrite; }
 
 body.ee div.nvbar.container > div.row,
 body.ee div.instructions,
 body.ee .qs-right {
-  border-color: #9e5e06 !important; }
+  border-color: $expressionecrite !important; }
 
 .ee .wb-mltmd .glyphicon {
   color: #473c4c;}
@@ -152,6 +234,8 @@ body.ee .boutons-feedback > input:hover {
 
 .container {
   border-color: #383838; }
+
+#nav2 > li{padding-left: 20px;}
 
 /* PALE GREY */
 #nav2 > li,
@@ -1087,10 +1171,7 @@ figcaption.emboldened > details > p > span {
 
 .qs-answers .wb-mm-ctrls{padding:0}
 
-$theory:#808047;
-$oral:#8C4335;
-$comprehensionecrite:#477079;
-$expressionecrite:#473C4C;
+
 
 /* ---------------------------------
                 Théorie
@@ -1141,6 +1222,7 @@ footer > div.container {
   background-color: $expressionecrite; }}
 
 #wb-tphp li > a {color:#fff;}
+.wb-mm-ctrls .frstpnl{text-align:left}
 
 .btn-group>input[type=range],
 .btn-group>.mute
