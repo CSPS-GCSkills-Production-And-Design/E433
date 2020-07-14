@@ -1394,10 +1394,6 @@ pre {
   padding-left: 15px;
   padding-right: 15px; }
 
-  .col-xs-2{
-  margin-right:80px;
-  margin-top:-35px; }
-
 .col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
   float: left; }
 
@@ -1405,7 +1401,7 @@ pre {
   width: 8.3333333333%; }
 
 .col-xs-2 {
-  width:  8.3333333333%; }
+  width: 16.6666666667%; }
 
 .col-xs-3 {
   width: 25%; }
@@ -1426,7 +1422,7 @@ pre {
   width: 66.6666666667%; }
 
 .col-xs-9 {
-  width: 66.6666666667%; }
+  width: 75%; }
 
 .col-xs-10 {
   width: 83.3333333333%; }
@@ -7790,37 +7786,24 @@ body.wb-modal .modal-dialog summary {
     /* Important Thing */
     -webkit-appearance: none;
     background: #fff;
-    border: 2px solid #3e3e3e;
-    border-radius: 2px;
+    border: 7px solid #3e3e3e;
+    border-radius: 14px;
     color: #176ca7;
     display: block;
-    height: 20px;
+    height: 30px;
     left: 0;
     padding: 2px;
     position: absolute;
-    top: 5px;
+    top: 0;
     width: 100%; }
     .wb-mm-ctrls progress.wb-progress-inited {
       overflow: hidden;
       padding: 0; }
     .wb-mm-ctrls progress::-webkit-progress-bar {
       background: #fff; }
-    .th .wb-mm-ctrls progress::-webkit-progress-value {
-     background: rgb(56,56,31);
-background: linear-gradient(90deg, rgba(56,56,31,1) 0%, rgba(128,128,71,1) 50%, rgba(241,241,134,1) 100%);
- }
-    .ce .wb-mm-ctrls progress::-webkit-progress-value {
-     background: rgb(70,20,11);
-background: linear-gradient(90deg, rgba(70,20,11,1) 0%, rgba(140,67,53,1) 50%, rgba(207,142,130,1) 100%);
- }
-    .co .wb-mm-ctrls progress::-webkit-progress-value {
-      background: rgb(32,51,55);
-background: linear-gradient(90deg, rgba(32,51,55,1) 0%, rgba(71,112,121,1) 50%, rgba(136,214,231,1) 100%);
- }
-    .ee .wb-mm-ctrls progress::-webkit-progress-value {
-      background: rgb(29,24,31);
-background: linear-gradient(90deg, rgba(29,24,31,1) 0%, rgba(71,60,76,1) 50%, rgba(139,117,149,1) 100%);
- }
+    .wb-mm-ctrls progress::-webkit-progress-value {
+      background: #176ca7;
+      border-radius: 7px; }
     .wb-mm-ctrls progress::-moz-progress-bar {
       background: #176ca7;
       border-radius: 7px; }
@@ -9025,7 +9008,7 @@ details {
   details summary {
     border: 1px solid #ddd;
     border-radius: 4px;
-    color: #010101;
+    color: #295376;
     padding: 5px 15px; }
     details summary:focus, details summary:hover {
       background-color: transparent;

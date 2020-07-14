@@ -166,7 +166,8 @@ footer > div.container {
 select[disabled],
 select:disabled,
 .gabarit-ee-10 a.clickable.disabled {
-  color: #5b5b5b; }
+  color: #5b5b5b; 
+text-decoration:line-through;}
 
 /* PALE GREY HOVER*/
 #wb-sm > div.nvbar > div.row,
@@ -1083,6 +1084,8 @@ figcaption.emboldened > details > p > span {
 -------------------------------------- */
 
 /*# sourceMappingURL=theme.css.map */
+
+.qs-answers .wb-mm-ctrls{padding:0}
 
 $theory:#808047;
 $oral:#8C4335;

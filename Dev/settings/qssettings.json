@@ -3,7 +3,6 @@
 	
 	"settings" :
 		{
-		"debugMode":true,
 		"autoTabbing":true,
 		"animBaseDuration":200,
 		"masterIntTester":33,

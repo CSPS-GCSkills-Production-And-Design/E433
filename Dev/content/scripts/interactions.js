@@ -72,6 +72,8 @@ function exceptionThree(){
 
 		
 		//console.log("Interactions:pageLoaded");
+		$(".recomm").click(function(){masterStructure.loadTarget()})
+		
 
 		// var medias = [];
 		// medias = Array.prototype.concat.apply(medias, document.getElementsByTagName('audio'));
@@ -97,12 +99,6 @@ function exceptionThree(){
 
 });
 
-//Javascript document
-/* is called on every page load, great for adding custom code to all pages*/
-function pageLoaded(){
-
-
-	}
 
 
 
