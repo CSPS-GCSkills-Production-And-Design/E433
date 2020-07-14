@@ -73,6 +73,7 @@ function exceptionThree(){
 		
 		//console.log("Interactions:pageLoaded");
 		$(".recomm").click(function(){masterStructure.loadTarget()})
+		$('.qs-answers input:not([id])').each(function () { $(this).attr('id','uuid'+Math.floor(Math.random(Date.now())*100000000000000000))});
 		
 
 		// var medias = [];
