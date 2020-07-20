@@ -62,6 +62,13 @@
 #wb-bar .top-menu h2.series-title a, footer .container {
   color: #fff; }
 
+h2.definition {
+  margin-left: 67px;
+  margin-bottom: 15px; }
+
+.gabarit-th-list ul {
+  margin-left: 45px; }
+
 .testBanane {
   display: flex; }
 

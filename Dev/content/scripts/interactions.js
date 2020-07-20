@@ -73,7 +73,9 @@ function exceptionThree(){
 		
 		//console.log("Interactions:pageLoaded");
 		$(".recomm").click(function(){masterStructure.loadTarget()})
-		setTimeout(function(){$('.qs-answers input:not([id])').each(function() { $(this).attr('id',_.uniqueId("uid"+Date.now()))});},500)
+		setTimeout(function(){$('.qs-answers input:not([id])').each(function() { $(this).attr('id',_.uniqueId("uid"+Date.now()))});},0)
+    $("#qdd1-a>option:gt(0)").shuffle()
+
 		
 
 		// var medias = [];
